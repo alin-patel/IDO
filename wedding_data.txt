@@ -1,0 +1,6 @@
+user:Braden Olive;
+wedding_elements:
+Florist?{Flower Fantasy,Vanderfleet Florist}
+Banquet!{Graydon Hall Manor}
+Photographers?{Olive Photography,Luminous Weddings}
+Makeup Artist?{Corrie Elle Makeup Hair Artist,The Bluesh Parlour,Muses,Beauty by Sabrina};
