@@ -1,5 +1,5 @@
 
-class ServiceProvider extends Vendor {
+export default class ServiceProvider extends Vendor {
 
     constructor(username, password, personId, age, Location, vendorName, vendorId, phoneNumber, businessType, serviceName, hourlyRate, timeTakenToComplete) {
         
