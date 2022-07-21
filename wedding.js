@@ -1,3 +1,6 @@
+import ServiceProvider from 'ServiceProvider.js';
+import ProductProvidor from 'ProductProvidor.js';
+
 class Wedding {
 
     constructor(name, type, theme, selectedVendors, finalizedVendors, year, month, day) {
