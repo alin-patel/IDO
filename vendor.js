@@ -1,12 +1,18 @@
+class Vendor{
 
+    #userName= null;
+    #password= null;
+    #Location location= null;
+    #vendorName= null;
+    #vendorId= null;
+    #phoneNumber= null;
+    #businessType= null;
 
-class Vendor extends User {
-
-
-    constructor(userName, password, personId, age, Location, vendorName, vendorId, phoneNumber, businessType) {
+    constructor(userName, password, location, vendorName, vendorId, phoneNumber, businessType) {
     
-        super(userName, password, personId, age); //call to constructor of parent class: User
-
+        this.userName= userName;
+        this.password= password;
+        this.location= location;
         this.vendorName   = vendorName;
         this.vendorId     = vendorId;
         this.phoneNumber  = phoneNumber;
@@ -15,15 +21,37 @@ class Vendor extends User {
     }
 
     getVendorInfo() {
-
+        const vendorInfo= [this.vendorName, this.businessType, this.phoneNumber, this.location];
+        return vendorInfo;
     }
 
-    updateVendorInfo() {
-
-    }
-    
-    deleteVendor(vendorId) {
-
+    updateVendorName(vendorName){ 
+        this.vendorName= vendorName;
     }
 
+    updateVendorBussinessType(businessType){ 
+        this.businessType= businessType;
+    }
+
+    updateVendorLocation(location){ 
+        this.location= location;
+    }
+
+    updateVendorNumber(phoneNumber){ 
+        this.phoneNumber= phoneNumber;
+    }
+
+    updateVendorId(vendorId){ 
+        this.vendorId= vendorId;
+    }
+
+    deleteVendor() {
+        this.vendorName = null;
+        this.location= null;
+        this.userName= null;
+        this.password= null;
+        this.businessType= null;
+        this.vendorId= null;
+        this.phoneNumber= null;
+    }
 }
