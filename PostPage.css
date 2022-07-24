@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100vh;
+    font-family: 'Garamond', serif;
+}
+
+.topNav {
+    overflow: hidden;
+    background-color: white;
+}
+
+.form-title{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    background-color: #EFE9E1;
+}
+
+.form-text{
+    color: black;
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: #EFE9E1;
+}
+
+.form-name{
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-left: 250px;
+    display: block;
+    
+    font-family: 'Raleway', sans-serif;
+
+    width: 600px;
+    box-sizing: border-box;
+
+    color: black;
+    background: white;
+
+    border: 1px solid #EFE9E1;
+    border-radius: 30px;
+    
+}
+
+.form-desc{
+    padding: 10px 10px;
+    margin-top: 20px;
+    margin-left: 250px;
+    display: block;
+    
+    width: 600px;
+    height: 200px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+
+    color: black;
+    background: white;
+
+    border: 1px solid #EFE9E1;
+    border-radius: 30px;
+    
+}
+
+.form-style {
+    background-color: #EFE9E1;
+    border: 40px solid #EFE9E1;
+    border-radius: 45px;
+    margin-left: 225px;
+    margin-bottom: 20px;
+    width: 950px;
+    height: 450px;
+
+}
+.form-name:focus{
+    outline: none;
+    background: #dbd4c9;
+    font-family: 'Re', serif;
+}
+
+.form-desc:focus{
+    outline: none;
+    background: #dbd4c9;
+    font-family: 'Raleway', sans-serif;
+}
+
+.form-button-post {
+    width: 160px;
+    height: 30px;
+    display: inline-block;
+    
+
+    margin-left: 365px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-size: 13px;
+
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-family: 'Raleway', sans-serif;
+
+    background: white;
+
+}
+
+.form-button-upload {
+    width: 160px;
+    height: 30px;
+    display: inline-block;
+    
+
+    margin-left: 675px;
+    margin-top: -45px;
+    position: absolute;
+    margin-bottom: 40px;
+    font-size: 13px;
+    
+
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-family: 'Raleway', sans-serif;
+
+    background: white;
+
+}
+
+.form-button-post:hover{
+    background: #dbd4c9;
+}
+
+.form-button-upload:hover{
+    background: #dbd4c9;
+}
