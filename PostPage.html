@@ -11,7 +11,7 @@
   <body >
     <div class="topNav">
       <nav>
-        <img src="/Flowers.png" width="300px" height="120px">
+        <img src="C:\Users\User\Documents\flowerpower.png" width="300px" height="120px">
       </nav>
     </div>
 
@@ -28,12 +28,13 @@
 
             <input class="form-desc" placeholder="Related description" type="description" name="description" id="description">
 
-            <button class="form-button-upload" type="upload" id="upload-button">Upload Images</button>
+            <input class = "form-button-upload" type = "file" name = "upload" accept = "image/*" />
+
+            <button class = "form-button-upload" onclick="document.getElementById('getFile').click()">Upload Images</button>
+            <input type='file' id="getFile" style="display:none">
 
             <button class="form-button-post" type="publish" id="publish-button">Post</button>
-        </form>
-
+          </form>
     </div>
-
   </body>
 </html>
