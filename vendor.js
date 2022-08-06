@@ -1,8 +1,12 @@
+
+
+import {Location} from "Location.js";
+
 class Vendor{
 
     #userName= null;
     #password= null;
-    #Location location= null;
+    #location= null;
     #vendorName= null;
     #vendorId= null;
     #phoneNumber= null;
@@ -47,11 +51,11 @@ class Vendor{
 
     deleteVendor() {
         this.vendorName = null;
-        this.location= null;
-        this.userName= null;
-        this.password= null;
-        this.businessType= null;
-        this.vendorId= null;
-        this.phoneNumber= null;
+        this.location = null;
+        this.userName = null;
+        this.password = null;
+        this.businessType = null;
+        this.vendorId = null;
+        this.phoneNumber = null;
     }
 }
