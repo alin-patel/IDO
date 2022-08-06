@@ -1,0 +1,36 @@
+body{
+    background-color: #FFFFFF;
+}
+table, th {
+    width: 80%;
+    border: 3px solid black;
+    border-collapse: collapse;
+  }
+
+  .button {
+    margin: 0 5px 5px 0;
+    padding: 5px 15px;
+    font-size: 1.1em;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: black;
+    color: #fff;
+    background-color: #4CAF50;
+    border: 2px;
+    border-radius: 1px;
+    box-shadow: 0 2px #999;
+  }
+
+  .buttonTrash{
+    text-align: right;
+  }
+  /* Column container */
+  .row {  
+    display: flex;
+    /* clear: both; */
+  }
+  .column {
+    flex: 50%;
+    /* float: left; */
+  }
